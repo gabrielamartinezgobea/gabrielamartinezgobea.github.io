@@ -85,20 +85,20 @@ nav {
     color: var(--deep-green);
     text-decoration: none;
 
-    font-size: 1.45rem;
+    font-size: 1.6rem;
     font-weight: 500;
 
     letter-spacing: -0.5px;
 }
 
 
-/* Menú */
+/* Menú de las categorias */
 
 nav ul {
     list-style: none;
 
     display: flex;
-    gap: 38px;
+    gap: 40px;
 }
 
 nav ul a {
@@ -106,10 +106,10 @@ nav ul a {
 
     text-decoration: none;
 
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 600;
 
-    transition: color 0.3s ease;
+    transition: color 0.4s ease;
 }
 
 nav ul a:hover {
@@ -143,7 +143,7 @@ section {
 .hero {
     position: relative;
 
-    min-height: 100vh;
+    min-height: 65vh;
 
     padding-top: 170px;
 
